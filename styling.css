@@ -23,6 +23,7 @@ main {
     margin-top: 15px;
     text-align: center;
     flex: 3;
+    padding-bottom: 60px; 
 }
 
 img {
@@ -130,17 +131,11 @@ footer {
 main,
 aside {
     margin-bottom: 100px;
+    padding-bottom: 60px;
 }
-
 body {
     min-height: 100vh;
 }
-
-main,
-aside {
-    margin-bottom: 100px;
-}
-
 footer h2 {
     font-weight: bold;
     color: #00bfbf;
@@ -159,7 +154,5 @@ footer img {
     vertical-align: middle;
     margin-right: 5px;
     width: 24px;
-    /* New width for icons */
     height: 24px;
-    /* New height for icons */
 }
